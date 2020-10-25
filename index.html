@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Todo App</title>
+  </head>
+  <body>
+    <div class="todo-container" id="todo-container">
+      <div class="todo-body">
+        <div class="header">
+          <div class="icon">
+            <img src="img/Apple Reminders.png" alt="icon-img" />
+          </div>
+          <h1>Todo App</h1>
+          <div class="download" id="download">
+            <img src="img/Download.png" alt="download-ing" />
+          </div>
+        </div>
+
+
+        <div class="list-container" id="list-container">
+          <!-- Completed task  -->
+          <!-- <div class="list-item">
+            <img src="./img/Done%20All.png" alt="..." class="status-icon" />
+            <div class="content">
+             
+              <h3>Completed Task</h3>
+              <p>This is a completed task description.</p>
+            </div>
+            <div class="action">
+              <img src="./img/Cancel.png" alt="..." class="action-icon" />
+            </div>
+          </div> -->
+
+          <!-- Pending Task  -->
+          <!-- <div class="list-item">
+            <img src="./img/Pending.png" alt="..." class="status-icon" />
+            <div class="content">
+              <h3>Pending task</h3>
+              <p>This is a pending task</p>
+            </div>
+            <div class="action">
+              <img src="./img/approve.png" alt="..." class="action-icon" />
+              
+              <img src="./img/Cancel.png" alt="..." class="action-icon" />
+            </div>
+          </div> -->
+        </div>
+
+        <form class="add-container" id="add-container" name="add-container">
+          <img src="./img/Add.png" alt="..." class="add-icon" />
+          <input
+          autofocus
+          autocomplete="off"
+              type="text"
+              required
+              minlength="2"
+              id="todo_title"
+              class="title-input"
+              placeholder="Task Title"
+          />
+          <input
+          autocomplete="off"
+              type="text"
+              id="todo_desc"
+              required
+              minlength="6"
+              class="desc-input"
+              placeholder="Task Description"
+          />
+
+          <input type="submit" value="Add Task" class="add-button" id="add-button"  />
+         
+        </form>
+      </div>
+      
+      </div>
+    </div>
+
+    <script src="./js/main.js"></script>
+
+  </body>
+</html>
