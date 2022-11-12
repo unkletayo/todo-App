@@ -1,3 +1,4 @@
+// GETTING ELEMENTS
 const listContainer = document.getElementById('list-container');
 const todoContainer = document.getElementById('todo-container');
 const form = document.querySelector('#add-container');
